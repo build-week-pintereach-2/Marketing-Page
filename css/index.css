@@ -185,6 +185,7 @@ p {
 @media (max-width:500px) {
   .title {
     width: 100%;
+    padding: 0 5%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -239,7 +240,7 @@ footer nav {
     flex-direction: column;
   }
 }
-.Content .Content1 .picture1 {
+.Content .Content1 .picture {
   width: 70%;
   margin: 10%;
 }
@@ -263,15 +264,22 @@ footer nav {
     margin-left: 5%;
   }
 }
-.Content .Content2 .picture1 {
+.Content .Content2 .picture {
   width: 70%;
   margin: 10%;
+}
+@media (max-width:500px) {
+  .Content .Content2 .picture {
+    width: 90%;
+    margin-left: 5%;
+  }
 }
 .Content .Content2 .text {
   display: flex;
   margin: 5% 5% 5% 5%;
   color: black;
 }
+/*About Us page______________________________________________________________*/
 .aboutUs header {
   margin: 5% 5%;
   padding: 20px;
@@ -304,7 +312,7 @@ footer nav {
 }
 @media (max-width:500px) {
   .aboutUs .teamMember .info img {
-    width: 75%;
+    width: 100%;
     margin-bottom: 5%;
   }
 }
@@ -341,7 +349,7 @@ footer nav {
 }
 @media (max-width:500px) {
   .aboutUs .teamMember2 .info img {
-    width: 75%;
+    width: 100%;
     margin-bottom: 5%;
   }
 }
