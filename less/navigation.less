@@ -9,24 +9,41 @@
         .displayBox(space-between,center);
         width:100%;
         padding:0 40px;
+
+        @media @mobile{
+            width:100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
     }
     
 }
-h1{
-    width:100%;
-    .font-style(Lobster, 8rem);
-    color:white;
+
+.title{
+    @media @mobile {
+        width:100%;
+        .displayBox(center,center);
+    }
+    h1{
+        width:100%;
+        .font-style(Lobster, 8rem);
+        color:white;
+    }
 }
 .nav{
-    width:25%;
+    width:30%;
     padding:0 20px;
+    // .displayBox(flex-end,center);
+    
+    @media @mobile{
+        width:100%;
+    }
 }
  nav{
-     .displayBox(space-around,center);
+     .displayBox(space-between,center);
      .font-style(Lobster, 2.5rem);  
-     @media @mobile{
-         width:100%;
-     }
+
+     
      
      a{
          color:white;

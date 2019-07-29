@@ -8,6 +8,9 @@
   text-align: center;
   padding: 20px;
   .displayBox(center,center);
+  @media @mobile {
+    flex-direction: column;
+  }
 
     .picture1{
       width:70%;
@@ -28,6 +31,10 @@
   padding: 20px;
   .displayBox(center,center);
   margin-left:10%;
+  @media @mobile {
+    flex-direction: column-reverse;
+    margin-left:5%;
+  }
 
     .picture1{
       width:70%;
@@ -57,6 +64,7 @@
   .teamMember{
     width:90%;
     margin:5%;
+    
 
     .info {
       display:flex;
@@ -64,15 +72,60 @@
       text-align: center;
       padding: 5px;
       .displayBox(space-between, center);
+      @media @mobile {
+        flex-direction: column;
+      }
     
         img{
           width:45%;
           margin:0 3%;
+          @media @mobile {
+            width:75%;
+            margin-bottom: 5%;
+          }
         }
         .text{
           width:45%;
           margin:0 3%;
           color:black;
+          @media @mobile {
+            width:75%;
+          }
+        }
+        
+      
+    }
+  }
+  .teamMember2{
+    width:90%;
+    margin:5%;
+    
+
+    .info {
+      display:flex;
+      width:100%;
+      text-align: center;
+      padding: 5px;
+      .displayBox(space-between, center);
+      @media @mobile {
+        flex-direction: column-reverse;
+      }
+    
+        img{
+          width:45%;
+          margin:0 3%;
+          @media @mobile {
+            width:75%;
+            margin-bottom: 5%;
+          }
+        }
+        .text{
+          width:45%;
+          margin:0 3%;
+          color:black;
+          @media @mobile {
+            width:75%;
+          }
         }
         
       
