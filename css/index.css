@@ -173,7 +173,7 @@ p {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  margin: 0 4%;
+  padding: 0 40px;
 }
 h1 {
   width: 100%;
@@ -183,7 +183,7 @@ h1 {
 }
 .nav {
   width: 25%;
-  margin-right: 5%;
+  padding: 0 20px;
 }
 nav {
   display: flex;
@@ -247,8 +247,32 @@ footer nav {
   color: black;
 }
 .aboutUs header {
+  margin: 5% 5%;
+  padding: 20px;
+}
+.aboutUs header h2 {
+  color: black;
+  font-family: Lobster;
+  font-size: 5.5rem;
+}
+.aboutUs .teamMember {
+  width: 90%;
   margin: 5%;
 }
-.aboutUs header h1 {
+.aboutUs .teamMember .info {
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.aboutUs .teamMember .info img {
+  width: 45%;
+  margin: 0 3%;
+}
+.aboutUs .teamMember .info .text {
+  width: 45%;
+  margin: 0 3%;
   color: black;
 }

@@ -45,10 +45,37 @@
 .aboutUs{
 
   header{
+    margin:5% 5%;
+    padding:20px;
+
+    h2{
+      color:black;
+      .font-style(Lobster, 5.5rem);
+    }
+  }
+
+  .teamMember{
+    width:90%;
     margin:5%;
 
-    h1{
-      color:black;
+    .info {
+      display:flex;
+      width:100%;
+      text-align: center;
+      padding: 5px;
+      .displayBox(space-between, center);
+    
+        img{
+          width:45%;
+          margin:0 3%;
+        }
+        .text{
+          width:45%;
+          margin:0 3%;
+          color:black;
+        }
+        
+      
     }
   }
 }
