@@ -10,16 +10,30 @@
   .displayBox(center,center);
   @media @mobile {
     flex-direction: column;
+    margin-top:10%;
   }
 
     .picture{
       width:70%;
       margin:10%;
+      border-radius: 200px;
+      @media @mobile{
+        display:none;
+      }
     }
     .text{
       display: flex;
+      flex-direction: column;
       margin:5% 5% 5% 0;
       color:black;
+    }
+    img{
+      width:75%;
+      margin: 5% 10%;
+      @media @mobile{
+        width:75%;
+        margin-left:15%;
+      }
     }
   
 }
@@ -34,20 +48,27 @@
   @media @mobile {
     flex-direction: column-reverse;
     margin-left:5%;
+    margin-top:-10%;
   }
 
     .picture{
       width:70%;
       margin:10%;
+      border-radius: 200px;
       @media @mobile{
         width:90%;
-        margin-left:5%;
+        margin-left:7%;
+        display:none;
       }
     }
     .text{
-      display: flex;
+      flex-direction: column;
       margin:5% 5% 5% 5%;
       color:black;
+    }
+    img{
+      width:100%;
+      margin: 5% 10% 5% 0;
     }
   
   }
@@ -85,6 +106,7 @@
         img{
           width:45%;
           margin:0 3%;
+          border-radius: 150px;
           @media @mobile {
             width:100%;
             margin-bottom: 5%;
@@ -120,6 +142,7 @@
         img{
           width:45%;
           margin:0 3%;
+          border-radius: 150px;
           @media @mobile {
             width:100%;
             margin-bottom: 5%;

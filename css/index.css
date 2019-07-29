@@ -238,16 +238,34 @@ footer nav {
 @media (max-width:500px) {
   .Content .Content1 {
     flex-direction: column;
+    margin-top: 10%;
   }
 }
 .Content .Content1 .picture {
   width: 70%;
   margin: 10%;
+  border-radius: 200px;
+}
+@media (max-width:500px) {
+  .Content .Content1 .picture {
+    display: none;
+  }
 }
 .Content .Content1 .text {
   display: flex;
+  flex-direction: column;
   margin: 5% 5% 5% 0;
   color: black;
+}
+.Content .Content1 img {
+  width: 75%;
+  margin: 5% 10%;
+}
+@media (max-width:500px) {
+  .Content .Content1 img {
+    width: 75%;
+    margin-left: 15%;
+  }
 }
 .Content .Content2 {
   width: 90%;
@@ -262,22 +280,29 @@ footer nav {
   .Content .Content2 {
     flex-direction: column-reverse;
     margin-left: 5%;
+    margin-top: -10%;
   }
 }
 .Content .Content2 .picture {
   width: 70%;
   margin: 10%;
+  border-radius: 200px;
 }
 @media (max-width:500px) {
   .Content .Content2 .picture {
     width: 90%;
-    margin-left: 5%;
+    margin-left: 7%;
+    display: none;
   }
 }
 .Content .Content2 .text {
-  display: flex;
+  flex-direction: column;
   margin: 5% 5% 5% 5%;
   color: black;
+}
+.Content .Content2 img {
+  width: 100%;
+  margin: 5% 10% 5% 0;
 }
 /*About Us page______________________________________________________________*/
 .aboutUs header {
@@ -309,6 +334,7 @@ footer nav {
 .aboutUs .teamMember .info img {
   width: 45%;
   margin: 0 3%;
+  border-radius: 150px;
 }
 @media (max-width:500px) {
   .aboutUs .teamMember .info img {
@@ -346,6 +372,7 @@ footer nav {
 .aboutUs .teamMember2 .info img {
   width: 45%;
   margin: 0 3%;
+  border-radius: 150px;
 }
 @media (max-width:500px) {
   .aboutUs .teamMember2 .info img {
