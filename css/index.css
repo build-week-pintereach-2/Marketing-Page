@@ -1,0 +1,242 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: 'Varela Round', sans-serif;
+  color: #5E6164;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Lobster', cursive;
+  color: #23293B;
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3.2rem;
+}
+h3 {
+  font-size: 2.8rem;
+}
+p {
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+.navigation {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #E60023;
+}
+.navigation .topContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h1 {
+  width: 100%;
+  margin-left: 5%;
+  font-family: Lobster;
+  font-size: 8rem;
+  color: white;
+}
+.nav {
+  width: 25%;
+  margin-right: 5%;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Lobster;
+  font-size: 2.5rem;
+}
+@media (max-width:500px) {
+  nav {
+    width: 100%;
+  }
+}
+nav a {
+  color: white;
+}
+footer {
+  background: #E60023;
+  padding: 20px 0;
+  border: 1px double #e0e0e0;
+  border-radius: 10px;
+}
+footer nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Content .Content1 {
+  display: flex;
+  width: 90%;
+  text-align: center;
+  padding: 20px;
+}
+.Content .Content1 .picture1 {
+  width: 70%;
+  margin: 10%;
+}
+.Content .Content1 .text {
+  display: flex;
+  margin: 5% 5% 5% 0;
+  color: black;
+}
+.Content .Content2 {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+.Content .Content2 .picture1 {
+  width: 70%;
+  margin: 10%;
+}
+.Content .Content2 .text {
+  display: flex;
+  margin: 5% 5% 5% 5%;
+  color: black;
+}
