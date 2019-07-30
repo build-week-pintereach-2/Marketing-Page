@@ -352,6 +352,9 @@ footer nav {
     width: 75%;
   }
 }
+.aboutUs .teamMember .info .text h2 {
+  color: #E60023;
+}
 .aboutUs .teamMember2 {
   width: 90%;
   margin: 5%;
@@ -389,4 +392,7 @@ footer nav {
   .aboutUs .teamMember2 .info .text {
     width: 75%;
   }
+}
+.aboutUs .teamMember2 .info .text h2 {
+  color: #E60023;
 }
