@@ -338,7 +338,7 @@ footer nav {
 }
 @media (max-width:500px) {
   .aboutUs .teamMember .info img {
-    width: 100%;
+    width: 80%;
     margin-bottom: 5%;
   }
 }
@@ -354,6 +354,9 @@ footer nav {
 }
 .aboutUs .teamMember .info .text h2 {
   color: #E60023;
+}
+.aboutUs .teamMember .info .text a {
+  color: black;
 }
 .aboutUs .teamMember2 {
   width: 90%;
@@ -379,7 +382,7 @@ footer nav {
 }
 @media (max-width:500px) {
   .aboutUs .teamMember2 .info img {
-    width: 100%;
+    width: 80%;
     margin-bottom: 5%;
   }
 }
@@ -395,4 +398,7 @@ footer nav {
 }
 .aboutUs .teamMember2 .info .text h2 {
   color: #E60023;
+}
+.aboutUs .teamMember2 .info .text a {
+  color: black;
 }
