@@ -174,7 +174,7 @@ p {
   align-items: center;
   width: 100%;
   padding: 0 40px;
-  margin-bottom: 3%;
+  margin-bottom: 1%;
 }
 @media (max-width:500px) {
   .navigation .topContent {
@@ -206,6 +206,9 @@ p {
   .nav {
     width: 100%;
   }
+  .nav .fas {
+    display: none;
+  }
 }
 nav {
   display: flex;
@@ -217,6 +220,11 @@ nav {
 nav a {
   color: white;
 }
+@media (max-width:500px) {
+  nav a {
+    display: flex;
+  }
+}
 footer {
   background: #E60023;
   padding: 20px 0;
@@ -227,6 +235,14 @@ footer nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+@media (max-width:500px) {
+  footer nav .fas {
+    display: none;
+  }
+  footer nav .far {
+    display: none;
+  }
 }
 .Content .Content1 {
   width: 100%;

@@ -7,5 +7,15 @@ footer {
 
   nav{
     .displayBox(space-around, center);
+
+    @media @mobile{
+        .fas{
+          display:none;
+      }
+        .far{
+          display:none;
+      }
+    }
   }
+  
 }
