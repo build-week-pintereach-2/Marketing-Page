@@ -1,21 +1,25 @@
 // Footer Styles
 footer {
-  background: #E60023;
-  padding: 20px 0;
-  border: 1px double #e0e0e0;
-  border-radius: 50% 50% 0 0;
+	background: #e60023;
+	padding: 20px 0;
+	border: 1px double #e0e0e0;
+	border-radius: 50% 50% 0 0;
 
-  nav{
-    .displayBox(space-around, center);
+	nav {
+		.displayBox(space-around, center);
+		margin-top: 1%;
 
-    @media @mobile{
-        .fas{
-          display:none;
-      }
-        .far{
-          display:none;
-      }
-    }
-  }
-  
+		@media @mobile {
+			.fas {
+				display: none;
+			}
+			.far {
+				display: none;
+			}
+		}
+	}
+	p {
+		.displayBox(center,center);
+		color: white;
+	}
 }

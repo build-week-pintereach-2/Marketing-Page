@@ -135,7 +135,7 @@ html {
 html,
 body {
   font-family: 'Varela Round', sans-serif;
-  color: #5E6164;
+  color: #5e6164;
 }
 h1,
 h2,
@@ -143,7 +143,7 @@ h3,
 h4,
 h5 {
   font-family: 'Lobster', cursive;
-  color: #23293B;
+  color: #23293b;
 }
 h1 {
   font-size: 4rem;
@@ -166,7 +166,7 @@ p {
 .navigation {
   padding: 40px;
   border-radius: 0 0 50% 50%;
-  background-color: #E60023;
+  background-color: #e60023;
 }
 .navigation .topContent {
   display: flex;
@@ -226,7 +226,7 @@ nav a {
   }
 }
 footer {
-  background: #E60023;
+  background: #e60023;
   padding: 20px 0;
   border: 1px double #e0e0e0;
   border-radius: 50% 50% 0 0;
@@ -235,6 +235,7 @@ footer nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-top: 1%;
 }
 @media (max-width:500px) {
   footer nav .fas {
@@ -243,6 +244,12 @@ footer nav {
   footer nav .far {
     display: none;
   }
+}
+footer p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
 .Content .Content1 {
   width: 100%;
@@ -369,7 +376,7 @@ footer nav {
   }
 }
 .aboutUs .teamMember .info .text h2 {
-  color: #E60023;
+  color: #e60023;
 }
 .aboutUs .teamMember .info .text a {
   color: black;
@@ -413,7 +420,7 @@ footer nav {
   }
 }
 .aboutUs .teamMember2 .info .text h2 {
-  color: #E60023;
+  color: #e60023;
 }
 .aboutUs .teamMember2 .info .text a {
   color: black;
