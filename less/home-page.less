@@ -24,6 +24,12 @@
 			flex-direction: column;
 			margin: 5% 5% 5% 0;
 			color: black;
+
+			@media @mobile {
+				h1 {
+					text-align: center;
+				}
+			}
 		}
 		img {
 			width: 75%;
@@ -63,10 +69,51 @@
 			flex-direction: column;
 			margin: 5% 5% 5% 5%;
 			color: black;
+			
 		}
 		img {
 			width: 100%;
 			margin: 5% 10% 5% 0;
+		}
+	}
+
+	.Content3 {
+		display: flex;
+		width: 100%;
+		padding: 20px;
+		.displayBox(center,center);
+		@media @mobile {
+			flex-direction: column;
+			margin-top: 5%;
+		}
+
+		.picture {
+			width: 60%;
+			margin: 10%;
+			border-radius: 200px;
+			@media @mobile {
+				display: none;
+			}
+		}
+		.text {
+			display: flex;
+			flex-direction: column;
+			margin: 5% 5% 5% 0;
+			color: black;
+
+			@media @mobile {
+				h1 {
+					text-align: center;
+				}
+			}
+		}
+		img {
+			width: 75%;
+			margin: 5% 10%;
+			@media @mobile {
+				width: 75%;
+				margin-left: 15%;
+			}
 		}
 	}
 }
