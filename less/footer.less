@@ -9,7 +9,22 @@ footer {
 		.displayBox(space-around, center);
 		margin-top: 1%;
 
+		@media @tablet{
+			font-size: 3rem;
+
+			.fas{
+				display:none;
+			}
+
+			.far {
+				display: none;
+			}
+		}
+
 		@media @mobile {
+
+			font-size: 1.50rem;
+			
 			.fas {
 				display: none;
 			}
