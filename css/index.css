@@ -355,13 +355,21 @@ footer p {
 }
 /*About Us page______________________________________________________________*/
 .aboutUs header {
-  margin: 5% 5%;
+  margin: 5% 0;
   padding: 20px;
+  width: 100%;
+  background: #e60023;
+}
+.aboutUs header div {
+  margin: 0 10%;
 }
 .aboutUs header h2 {
-  color: black;
+  color: white;
   font-family: Lobster;
   font-size: 5.5rem;
+}
+.aboutUs header p {
+  color: white;
 }
 .aboutUs .teamMember {
   width: 90%;
