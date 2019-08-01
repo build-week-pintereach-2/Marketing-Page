@@ -475,8 +475,18 @@ footer p {
   font-family: Lobster;
   font-size: 5.5rem;
 }
+@media (max-width: 350px) {
+  .aboutUs header h2 {
+    text-align: center;
+  }
+}
 .aboutUs header p {
   color: white;
+}
+@media (max-width: 350px) {
+  .aboutUs header p {
+    text-align: center;
+  }
 }
 .aboutUs .teamMember {
   width: 90%;
