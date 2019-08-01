@@ -206,10 +206,18 @@ p {
   color: white;
 }
 .nav {
-  width: 30%;
+  width: 40%;
   padding: 0 20px;
 }
+@media (max-width: 1000px) {
+  .nav {
+    width: 40%;
+  }
+}
 @media (max-width:800px) {
+  .nav {
+    width: 70%;
+  }
   .nav .fas {
     display: none;
   }
@@ -284,6 +292,11 @@ footer p {
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 650px) {
+  .Content .Content1 {
+    text-align: center;
+  }
+}
 @media (max-width:500px) {
   .Content .Content1 {
     flex-direction: column;
@@ -295,6 +308,11 @@ footer p {
   margin: 10%;
   border-radius: 200px;
 }
+@media (max-width: 650px) {
+  .Content .Content1 .picture {
+    display: none;
+  }
+}
 @media (max-width:500px) {
   .Content .Content1 .picture {
     display: none;
@@ -305,6 +323,11 @@ footer p {
   flex-direction: column;
   margin: 5% 5% 5% 0;
   color: black;
+}
+@media (max-width:800px) {
+  .Content .Content1 .text {
+    width: 80%;
+  }
 }
 @media (max-width:500px) {
   .Content .Content1 .text h1 {
@@ -341,6 +364,16 @@ footer p {
   margin: 10%;
   border-radius: 200px;
 }
+@media (max-width: 650px) {
+  .Content .Content2 .picture {
+    display: none;
+  }
+}
+@media (max-width:800px) {
+  .Content .Content2 .picture {
+    width: 90%;
+  }
+}
 @media (max-width:500px) {
   .Content .Content2 .picture {
     width: 90%;
@@ -354,6 +387,11 @@ footer p {
   margin: 5% 5% 5% 5%;
   color: black;
 }
+@media (max-width:800px) {
+  .Content .Content2 .text {
+    width: 80%;
+  }
+}
 .Content .Content2 img {
   width: 100%;
   margin: 5% 10% 5% 0;
@@ -365,6 +403,11 @@ footer p {
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 650px) {
+  .Content .Content3 {
+    text-align: center;
+  }
+}
 @media (max-width:500px) {
   .Content .Content3 {
     flex-direction: column;
@@ -375,6 +418,11 @@ footer p {
   width: 60%;
   margin: 10%;
   border-radius: 200px;
+}
+@media (max-width: 650px) {
+  .Content .Content3 .picture {
+    display: none;
+  }
 }
 @media (max-width:500px) {
   .Content .Content3 .picture {
