@@ -245,6 +245,16 @@ nav a {
     display: flex;
   }
 }
+@media (max-width: 340px) {
+  nav a {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 300px) {
+  nav a {
+    font-size: 1.2rem;
+  }
+}
 footer {
   background: #e60023;
   padding: 20px 0;
